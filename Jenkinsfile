@@ -32,7 +32,7 @@ spec:
     }
   }
   environment {
-    IMAGE = 'docker.io/kevinmateog/spring-petclinic:gestion-udem-jenkins'
+    IMAGE = 'docker.io/jilopezv1/spring-petclinic:gestion-udem-jenkins'
   }
   stages {
     stage('Maven Install') {
